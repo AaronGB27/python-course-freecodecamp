@@ -19,3 +19,4 @@ print(department)
 year_code = employee_code[4:8]
 print(year_code)
 initials = employee_code[9:11]
+print(initials)
