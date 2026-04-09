@@ -15,3 +15,4 @@ employee_card = f"Employee: {full_name} | Age: {employee_age} | Position: {posit
 print(employee_card)
 employee_code = "DEV-2026-JD-001"
 department = employee_card[0:3]
+print(department)
