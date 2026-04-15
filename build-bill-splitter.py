@@ -12,3 +12,6 @@ print(f"Total bill so far {running_total}")
 
 tip = running_total * 0.25
 print(f"Tip amount: {tip}")
+
+final_bill = running_total / num_of_friends
+print(f"Bill per person: {final_bill}")
