@@ -28,4 +28,5 @@ def apply_discount(price, discount):
         return "The price should be a number"
     if not(isinstance(discount, int)) and not(isinstance(discount, float)):
         return "The discount should be a number"
-    
+    if price <= 0:
+        return "The price should be greater than 0"
