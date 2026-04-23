@@ -24,4 +24,5 @@
 # The function should return the final price after applying the discount.
 
 def apply_discount(price, discount):
-    pass
+    if not(isinstance(price, int)) and not(isinstance(price, float)):
+        return "The price should be a number"
