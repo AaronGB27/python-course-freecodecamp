@@ -26,3 +26,6 @@
 def apply_discount(price, discount):
     if not(isinstance(price, int)) and not(isinstance(price, float)):
         return "The price should be a number"
+    if not(isinstance(discount, int)) and not(isinstance(discount, float)):
+        return "The discount should be a number"
+    
