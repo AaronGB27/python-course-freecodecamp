@@ -30,3 +30,6 @@ def apply_discount(price, discount):
         return "The discount should be a number"
     if price <= 0:
         return "The price should be greater than 0"
+    if not(0 <= discount <= 100):
+        return "The discount should be between 0 and 100"
+    
